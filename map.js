@@ -34,3 +34,6 @@ function formatDates(element){
     const parts = element.split('-');
     return `${parts[2]}/${parts[1]}/${parts[0]}`;
 }
+
+const newFormatedDate = dates.map(formatDates);
+console.log(newFormatedDate)
